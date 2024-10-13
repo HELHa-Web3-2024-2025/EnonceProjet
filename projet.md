@@ -115,7 +115,7 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
     - Tests d'intégration : Jest
     - Tests end-to-end : *Cypress*
 - Documentation : 
-    - En *Markdown* (pas de pdf ou autre).
+    - En *Markdown* (pas de pdf ou autres).
     - *Elle doit être lisible directement sur GitHub.*
     - *Dans le dossier `docs` à la racine du projet, la documentation technique doit permettre de comprendre comment installer et utiliser l'application.*
     - *Dans le dossier `teams` à la racine du projet, la documentation SCRUM va décrire ce que chaque sprint a apporté au projet (ce qui a été réalisé, ce qui n'a pas été réalisé, ce qui a été reporté, etc.).* 
@@ -123,7 +123,7 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
     - Protection contre les attaques *XSS* et *CSRF*
     - Protection contre les *injections SQL*
 
-Tout se qui est en *italique* est obligatoire. Tout ce qui n'est pas en gras est optionnel. Vous pouvez ajouter d'autres technologies si vous le souhaitez.
+Toutes les fonctionnalités ne sont pas obligatoires mais l'ensemble de vos fonctionnalités doit recouvrir tout ce qui est en *italique*. Ce qui est en *italique* est donc la partie obligatoire pour ce projet. Tout ce qui n'est pas en italique est optionnel. Vous pouvez ajouter d'autres technologies si vous le souhaitez.
     
 ## Equipe 
 
@@ -136,7 +136,14 @@ Tout se qui est en *italique* est obligatoire. Tout ce qui n'est pas en gras est
 ## Planning
 
 - Le projet a commencé le 3 octobre 2024 et se terminera le 20 décembre 2024.
-- Le projet va être découpé en 4 sprints de 2 semaines.
+- Le projet va être découpé en 5 sprints de 2 semaines, dont voici le calendrier :
+
+    - Sprint 1 : du 3 octobre 2024 au 17 octobre 2024
+    - Sprint 2 : du 17 octobre 2024 au 7 novembre 2024
+    - Sprint 3 : du 7 novembre 2024 au 21 novembre 2024
+    - Sprint 4 : du 21 novembre 2024 au 5 décembre 2024
+    - Sprint 5 : du 5 décembre 2024 au 19 décembre 2024
+
 - Chaque sprint commencera par une réunion de planification et se terminera par une réunion de revue et de rétrospective. Le professeur prendra un code d'une équipe au hasard pour le corriger. Il pourra poser des questions sur l'utilisation de GitHub, des branches, des pull requests, des issues, des tests, de la documentation, etc.
 - Chaque membre de l'équipe devra travailler sur une tâche à la fois. Les tâches seront distribuées équitablement entre les membres de l'équipe et devront être réalisées dans le sprint en cours. Si une tâche n'est pas terminée à la fin du sprint, elle sera reportée au sprint suivant. Toutes les tâches seront notées sur le tableau de bord (de GitHub ou autres).
 - Vos points seront calculés en fonction de la quantité et de la qualité de votre travail. Vous devrez respecter les délais et les consignes pour obtenir des points. Vous devrez aussi participer activement aux réunions de planification, de revue et de rétrospective pour obtenir des points.
