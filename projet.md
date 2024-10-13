@@ -19,7 +19,7 @@ L'utilisateur peut créer un groupe familial en fournissant un nom pour le group
 ### Recherche d'un film
 
 Quand un utilisateur est connecté, le site web sera divisé en 2 grandes parties :
-- la sélection de ses films préférés.
+- la sélection de ses films préférés;
 - la recherche d'un film en fonction des critères de son groupe familial.
 
 ### Sélection de ses films préférés
@@ -92,38 +92,38 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
 
 ## Technologies
 
-- Frontend : **React**
-    - Client HTTP : **Axios**
-    - Router : **React Router**
-    - **Architecture claire avec des composants réutilisables et des contextes pour gérer les données**
-    - Design : **Uniquement en SASS**. Utilisez une librairie de composants React (Material-UI, Ant Design, etc.), ou Bootstrap, ou Tailwind CSS, ...
-    - Tout en **TypeScript** pour la partie React
-    - **Bonne gestion des erreurs (surtout liées à l'API)**
-- Backend : **Node.js avec Express**
-    - Base de données : **MongoDB ou MariaDB**
-    - Avec Object Relational Mapping (ORM) : **Mongoose ou TypeORM** 
-    - API : **The Movie Database**. **La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur le git**.
-    - Authentification : **JSON Web Token (JWT)**
-    - Tout en **TypeScript**
-- Versionning : **GitHub**
+- Frontend : *React*
+    - Client HTTP : *Axios*
+    - Router : *React Router*
+    - *Architecture claire avec des composants réutilisables et des contextes pour gérer les données*
+    - Design : *Uniquement en SASS*. Utilisez une librairie de composants React (Material-UI, Ant Design, etc.), ou Bootstrap, ou Tailwind CSS, ...
+    - Tout en *TypeScript* pour la partie React
+    - *Bonne gestion des erreurs (surtout liées à l'API)*
+- Backend : *Node.js avec Express*
+    - Base de données : *MongoDB ou MariaDB*
+    - Avec Object Relational Mapping (ORM) : *Mongoose ou TypeORM* 
+    - API : *The Movie Database*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur le git*.
+    - Authentification : *JSON Web Token (JWT)*
+    - Tout en *TypeScript*
+- Versionning : *GitHub*
 - Déploiement : 
-    - **sur votre propre serveur**
-    - **automatiquement via des GitHub Actions**
+    - *sur votre propre serveur*
+    - *automatiquement via des GitHub Actions*
 - Tests :
-    - En **TypeScript**
+    - En *TypeScript*
     - Tests unitaires : Jest
     - Tests d'intégration : Jest
-    - Tests end-to-end : **Cypress**
+    - Tests end-to-end : *Cypress*
 - Documentation : 
-    - En **Markdown** (pas de pdf ou autre).
-    - **Elle doit être lisible directement sur GitHub.**
-    - **Dans le dossier `docs` à la racine du projet, la documentation technique doit permettre de comprendre comment installer et utiliser l'application.**
-    - **Dans le dossier `teams` à la racine du projet, la documentation SCRUM va décrire ce que chaque sprint a apporté au projet (ce qui a été réalisé, ce qui n'a pas été réalisé, ce qui a été reporté, etc.).** 
+    - En *Markdown* (pas de pdf ou autre).
+    - *Elle doit être lisible directement sur GitHub.*
+    - *Dans le dossier `docs` à la racine du projet, la documentation technique doit permettre de comprendre comment installer et utiliser l'application.*
+    - *Dans le dossier `teams` à la racine du projet, la documentation SCRUM va décrire ce que chaque sprint a apporté au projet (ce qui a été réalisé, ce qui n'a pas été réalisé, ce qui a été reporté, etc.).* 
 - Sécurité :
-    - Protection contre les attaques **XSS** et **CSRF**
-    - Protection contre les **injections SQL**
+    - Protection contre les attaques *XSS* et *CSRF*
+    - Protection contre les *injections SQL*
 
-Tout se qui est en gras est obligatoire. Tout ce qui n'est pas en gras est optionnel. Vous pouvez ajouter d'autres technologies si vous le souhaitez.
+Tout se qui est en *italique* est obligatoire. Tout ce qui n'est pas en gras est optionnel. Vous pouvez ajouter d'autres technologies si vous le souhaitez.
     
 ## Equipe 
 
