@@ -102,7 +102,7 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
 - Backend : *Node.js avec Express*
     - Base de données : *MongoDB ou MariaDB*
     - Avec Object Relational Mapping (ORM) : *Mongoose ou TypeORM* 
-    - API : *The Movie Database*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur le git*.
+    - API : *The Movie Database (TMDB)*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur le git. La clé ne sera jamais envoyée au client. Notre client discutera avec notre serveur qui lui-même parlera avec l'API de TMDB. Vous vieillerez également à ne pas faire de requêtes vers TMDB quand cela n'est pas nécessaire : mettez en cache (en base de données ou autres) les résultats pour ne plus les redemander.*
     - Authentification : *JSON Web Token (JWT)*
     - Tout en *TypeScript*
 - Versionning : *GitHub*
@@ -137,11 +137,11 @@ Tout se qui est en *italique* est obligatoire. Tout ce qui n'est pas en gras est
 
 - Le projet a commencé le 3 octobre 2024 et se terminera le 20 décembre 2024.
 - Le projet va être découpé en 4 sprints de 2 semaines.
-- Chaque sprint commencera par une réunion de planification et se terminera par une réunion de revue et de rétrospective.
+- Chaque sprint commencera par une réunion de planification et se terminera par une réunion de revue et de rétrospective. Le professeur prendra un code d'une équipe au hasard pour le corriger. Il pourra poser des questions sur l'utilisation de GitHub, des branches, des pull requests, des issues, des tests, de la documentation, etc.
 - Chaque membre de l'équipe devra travailler sur une tâche à la fois. Les tâches seront distribuées équitablement entre les membres de l'équipe et devront être réalisées dans le sprint en cours. Si une tâche n'est pas terminée à la fin du sprint, elle sera reportée au sprint suivant. Toutes les tâches seront notées sur le tableau de bord (de GitHub ou autres).
 - Vos points seront calculés en fonction de la quantité et de la qualité de votre travail. Vous devrez respecter les délais et les consignes pour obtenir des points. Vous devrez aussi participer activement aux réunions de planification, de revue et de rétrospective pour obtenir des points.
 - Votre présence est donc obligatoire à toutes les séances de cours. Si vous ne pouvez pas être présent à une séance, vous devrez prévenir à l'avance et vous devrez rattraper le travail manqué.
-- Afin de noter au mieux chaque membre de l'équipe, vous devrez utiliser des branches pour travailler sur des fonctionnalités différentes. Vous pourrez être interrogé sur l'utilisation de ces outils lors de la revue de projet.
+- Afin de noter au mieux chaque membre de l'équipe, vous devrez utiliser des branches pour travailler sur des fonctionnalités différentes. Vous pourrez être interrogés sur l'utilisation de ces outils lors de la revue de projet.
 
 
 ### *Bon travail !*
