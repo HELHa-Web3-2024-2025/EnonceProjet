@@ -1,9 +1,6 @@
----
-title: "Projet Web 3 - 2024-2025"
-author: "Pluquet Frédéric - HELHa"
-geometry: a4paper
----
+# Projet Web 3 - 2024-2025
 
+*Pluquet Frédéric - HELHa*
 
 ## Description
 
