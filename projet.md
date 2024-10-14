@@ -47,7 +47,7 @@ Un utilisateur peut quitter un groupe familial. Un utilisateur peut aussi suppri
 
 ### Gestion des préférences
 
-Un utilisateur peut modifier son profile et ses préférences à tout moment. Il peut par exemple indiquer s'il aime certains genres de films, s'il aime revoir des films qu'il a déjà vu, quels sont les fournisseurs de streaming qu'il utilise, etc.
+Un utilisateur peut modifier son profil et ses préférences à tout moment. Il peut par exemple indiquer s'il aime certains genres de films, s'il aime revoir des films qu'il a déjà vu, quels sont les fournisseurs de streaming qu'il utilise, etc.
 
 ### Notifications
 
@@ -72,7 +72,7 @@ Un email sera envoyé à l'utilisateur pour lui rappeler de revenir sur l'applic
 
 ### Offline
 
-L'application doit fonctionner en mode déconnecté pour revoir tout l'historique. Le reste de l'application n'est pas disponible en mode déconnecté.
+L'application doit fonctionner en mode déconnecté pour consulter tout l'historique. Le reste de l'application n'est pas disponible en mode déconnecté.
 
 ### Suppression du compte
 
@@ -80,7 +80,7 @@ Un utilisateur peut supprimer son compte. Toutes les données de l'utilisateur s
 
 ### Internationalisation
 
-L'application doit être disponible en français et en anglais. L'utilisateur peut choisir la langue de l'application dans son profile.
+L'application doit être disponible en français et en anglais. L'utilisateur peut choisir la langue de l'application dans son profil.
 
 ### Dark mode
 
@@ -96,13 +96,13 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
     - Client HTTP : *Axios*
     - Router : *React Router*
     - *Architecture claire avec des composants réutilisables et des contextes pour gérer les données*
-    - Design : *Uniquement en SASS*. Utilisez une librairie de composants React (Material-UI, Ant Design, etc.), ou Bootstrap, ou Tailwind CSS, ...
+    - Design : *Uniquement en SASS*. Utilisez une bibliothèque de composants React (Material-UI, Ant Design, etc.), ou Bootstrap, ou Tailwind CSS, ...
     - Tout en *TypeScript* pour la partie React
     - *Bonne gestion des erreurs (surtout liées à l'API)*
 - Backend : *Node.js avec Express*
     - Base de données : *MongoDB ou MariaDB*
-    - Avec Object Relational Mapping (ORM) : *Mongoose ou TypeORM* 
-    - API : *The Movie Database (TMDB)*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur le git. La clé ne sera jamais envoyée au client. Notre client discutera avec notre serveur qui lui-même parlera avec l'API de TMDB. Vous vieillerez également à ne pas faire de requêtes vers TMDB quand cela n'est pas nécessaire : mettez en cache (en base de données ou autres) les résultats pour ne plus les redemander.*
+    - Avec Object Relational Mapping (ORM) : *Mongoose ou TypeORM ou Prisma* 
+    - API : *The Movie Database (TMDB)*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur votre dépôt Git. La clé ne sera jamais envoyée au client. Notre client communiquera avec notre serveur qui lui-même communiquera avec l'API de TMDB. Vous veillerez également à ne pas faire de requêtes vers TMDB lorsque cela n'est pas nécessaire : mettez en cache (en base de données ou ailleurs) les résultats pour ne plus les redemander.*
     - Authentification : *JSON Web Token (JWT)*
     - Tout en *TypeScript*
 - Versionning : *GitHub*
