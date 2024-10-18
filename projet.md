@@ -10,7 +10,7 @@ Trouvez un film à regarder en fonction des envies de tous les membres de la fam
 
 ### Inscription & Connexion
 
-L'utilisateur peut s'inscrire sur le site web en fournissant son nom, son prénom, son adresse email et un mot de passe. Il peut aussi se connecter en fournissant son adresse email et son mot de passe.
+L'utilisateur peut s'inscrire sur le site web en fournissant son nom, son prénom, son adresse email et un mot de passe. Il peut aussi se connecter en fournissant son adresse email et son mot de passe. Il peut également choisir les fournisseurs de streaming qu'il utilise.
 
 ### Groupe familial
 
@@ -38,16 +38,15 @@ Les films seront triés par ordre de pertinence. Pour chaque film, le site web a
 
 S'il swipe sur la droite, le film sera alors ajouté à l'historique de l'utilisateur et marqué comme vu pour les autres membres du groupe familial.
 
+### Gestion des préférences
+
+Un utilisateur peut modifier son profil et ses préférences à tout moment. Il peut par exemple indiquer s'il aime certains genres de films, s'il aime revoir des films qu'il a déjà vu, quels sont les fournisseurs de streaming qu'il utilise, etc.
 
 ## Fonctionnalités supplémentaires
 
 ### Gestion des groupes familiaux
 
 Un utilisateur peut quitter un groupe familial. Un utilisateur peut aussi supprimer un groupe familial s'il en est le créateur. On peut faire partie de plusieurs groupes familiaux.
-
-### Gestion des préférences
-
-Un utilisateur peut modifier son profil et ses préférences à tout moment. Il peut par exemple indiquer s'il aime certains genres de films, s'il aime revoir des films qu'il a déjà vu, quels sont les fournisseurs de streaming qu'il utilise, etc.
 
 ### Notifications
 
@@ -58,7 +57,6 @@ Une notification peut être également envoyée quand cela fait plus de 7 jours 
 ### Historique
 
 Un utilisateur peut consulter l'historique des films qu'il a aimé et des films qu'il a vu. Il peut aussi consulter l'historique des films vus par les membres du groupe familial.
-
 
 ### Emails
 
@@ -140,9 +138,9 @@ Toutes les fonctionnalités ne sont pas obligatoires mais l'ensemble de vos fonc
 
     - Sprint 1 : du 3 octobre 2024 au 17 octobre 2024
     - Sprint 2 : du 17 octobre 2024 au 7 novembre 2024
-    - Sprint 3 : du 7 novembre 2024 au 21 novembre 2024
-    - Sprint 4 : du 21 novembre 2024 au 5 décembre 2024
-    - Sprint 5 : du 5 décembre 2024 au 19 décembre 2024
+    - Sprint 3 : du 7 novembre 2024 au 28 novembre 2024 (attention à la semaine à TechnoCampus)
+    - Sprint 4 : du 28 novembre 2024 au 12 décembre 2024
+    - Sprint 5 : du 12 décembre 2024 au 19 décembre 2024
 
 - Chaque sprint commencera par une réunion de planification et se terminera par une réunion de revue et de rétrospective. Le professeur prendra un code d'une équipe au hasard pour le corriger. Il pourra poser des questions sur l'utilisation de GitHub, des branches, des pull requests, des issues, des tests, de la documentation, etc.
 - Chaque membre de l'équipe devra travailler sur une tâche à la fois. Les tâches seront distribuées équitablement entre les membres de l'équipe et devront être réalisées dans le sprint en cours. Si une tâche n'est pas terminée à la fin du sprint, elle sera reportée au sprint suivant. Toutes les tâches seront notées sur le tableau de bord (de GitHub ou autres).
