@@ -103,6 +103,7 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
     - API : *The Movie Database (TMDB)*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur votre dépôt Git. La clé ne sera jamais envoyée au client. Notre client communiquera avec notre serveur qui lui-même communiquera avec l'API de TMDB. Vous veillerez également à ne pas faire de requêtes vers TMDB lorsque cela n'est pas nécessaire : mettez en cache (en base de données ou ailleurs) les résultats pour ne plus les redemander.*
     - Authentification : *JSON Web Token (JWT)*
     - Tout en *TypeScript*
+    - *Vous devez faire tourner au moins un processus en arrière-plan sur le serveur (par exemple pour envoyer des emails, pour envoyer des notifications, etc.) qui ne sera pas bloquant pour le serveur.*
 - Versionning : *GitHub*
 - Déploiement : 
     - *sur votre propre serveur*
