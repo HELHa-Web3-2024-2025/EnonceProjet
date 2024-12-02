@@ -107,7 +107,7 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
 - Versionning : *GitHub*
 - Déploiement : 
     - *sur votre propre serveur*
-    - *automatiquement via des GitHub Actions*
+    - *automatiquement via des GitHub Actions ou autre*
 - Tests :
     - En *TypeScript*
     - Tests unitaires : Jest
