@@ -109,7 +109,7 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
     - ~~sur votre propre serveur~~
     - ~~automatiquement via des GitHub Actions ou autre~~
     - *Vous ne devez plus déployer votre application sur un serveur distant (par faute de VPS). Votre application tournera donc uniquement en local. Mais vous devez comprendre comment votre client React peut être servi par votre serveur Express, si nous devions le mettre en ligne.*
-    - Si vous l'avez déjà fait, vous pouvez continuer à déployer votre application sur un serveur distant. Indiquez-le dans votre documentation et montrez comment cela fonctionne dans votre vidéo de présentation (voir plus bas).
+    - Si vous l'avez déjà fait, vous pouvez continuer à déployer votre application sur un serveur distant. Indiquez-le dans votre documentation et montrez comment cela fonctionne dans votre vidéo de présentation (voir plus bas). Cela pourra compter dans les points bonus.
 - Tests :
     - En *TypeScript*
     - Tests unitaires : Jest
