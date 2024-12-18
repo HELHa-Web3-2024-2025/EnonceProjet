@@ -4,7 +4,7 @@
 
 ## Description
 
-Trouvez un film à regarder en fonction des envies de tous les membres de la famille est souvent un casse-tête. Pour résoudre ce problème, nous avons décidé de créer une application web qui permet de trouver un film en fonction de plusieurs critères.
+Trouver un film à regarder en fonction des envies de tous les membres de la famille est souvent un casse-tête. Pour résoudre ce problème, nous avons décidé de créer une application web qui permet de trouver un film en fonction de plusieurs critères.
 
 ## Fonctionnalités principales
 
@@ -26,13 +26,13 @@ Quand un utilisateur est connecté, le site web sera divisé en 2 grandes partie
 
 Le site web choisira une liste de films populaires et les affichera à l'utilisateur par une interface proche de celle de Tinder. Pour chaque film, le site web affichera une image, le titre du film, la date de sortie, le genre, le résumé, la note moyenne et le nombre de votes.
 
- L'utilisateur pourra swiper à droite pour dire qu'il aime le film et à gauche pour dire qu'il ne l'aime pas. Il peut aussi indiquer qu'il a déjà vu le film. Les informations sur les films seront récupérées à partir de l'API The Movie Database. 
+L'utilisateur pourra swiper à droite pour dire qu'il aime le film et à gauche pour dire qu'il ne l'aime pas. Il peut aussi indiquer qu'il a déjà vu le film. Les informations sur les films seront récupérées à partir de l'API The Movie Database.
 
-Chaque membre du groupe familial devra faire cela pour établir ses propres préférences. Le site web proposera un ensemble de films limités à ceux qui ont été aimés par au moins un membre du groupe familial et complètera avec des films populaires une fois la liste épuisée.
+Chaque membre du groupe familial devra faire cela pour établir ses propres préférences. Le site web proposera un ensemble de films limités à ceux qui ont été aimés par au moins un membre du groupe familial et complétera avec des films populaires une fois la liste épuisée.
 
 ### Recherche d'un film en fonction des critères de son groupe familial
 
-Une fois que chaque membre du groupe familial a établi ses préférences, un des membres du groupe familial pourra demander de voir les films qui correspondent aux critères de tous les membres du groupe familial présents (une sélection peut être faite facimlement). Si aucun film ne correspond complètement, le site web proposera une liste de films qui correspond aux critères du plus grand nombre de membres du groupe familial.
+Une fois que chaque membre du groupe familial a établi ses préférences, un des membres du groupe familial pourra demander de voir les films qui correspondent aux critères de tous les membres du groupe familial présents (une sélection peut être faite facilement). Si aucun film ne correspond complètement, le site web proposera une liste de films qui correspond aux critères du plus grand nombre de membres du groupe familial.
 
 Les films seront triés par ordre de pertinence. Pour chaque film, le site web affichera une image, le titre du film, la date de sortie, le genre, le résumé, la note moyenne et le nombre de votes. L'utilisateur pourra swiper à droite pour dire qu'il veut regarder le film et à gauche pour dire qu'il ne veut pas le regarder.
 
@@ -40,7 +40,7 @@ S'il swipe sur la droite, le film sera alors ajouté à l'historique de l'utilis
 
 ### Gestion des préférences
 
-Un utilisateur peut modifier son profil et ses préférences à tout moment. Il peut par exemple indiquer s'il aime certains genres de films, s'il aime revoir des films qu'il a déjà vu, quels sont les fournisseurs de streaming qu'il utilise, etc.
+Un utilisateur peut modifier son profil et ses préférences à tout moment. Il peut par exemple indiquer s'il aime certains genres de films, s'il aime revoir des films qu'il a déjà vus, quels sont les fournisseurs de streaming qu'il utilise, etc.
 
 ## Fonctionnalités supplémentaires
 
@@ -56,7 +56,7 @@ Une notification peut être également envoyée quand cela fait plus de 7 jours 
 
 ### Historique
 
-Un utilisateur peut consulter l'historique des films qu'il a aimé et des films qu'il a vu. Il peut aussi consulter l'historique des films vus par les membres du groupe familial.
+Un utilisateur peut consulter l'historique des films qu'il a aimés et des films qu'il a vus. Il peut aussi consulter l'historique des films vus par les membres du groupe familial.
 
 ### Emails
 
@@ -99,32 +99,33 @@ L'utilisateur peut choisir de regarder des séries au lieu de films. Les séries
     - *Bonne gestion des erreurs (surtout liées à l'API)*
 - Backend : *Node.js avec Express*
     - Base de données : *MongoDB ou MariaDB*
-    - Avec Object Relational Mapping (ORM) : *Mongoose ou TypeORM ou Prisma* 
-    - API : *The Movie Database (TMDB)*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposé sur votre dépôt Git. La clé ne sera jamais envoyée au client. Notre client communiquera avec notre serveur qui lui-même communiquera avec l'API de TMDB. Vous veillerez également à ne pas faire de requêtes vers TMDB lorsque cela n'est pas nécessaire : mettez en cache (en base de données ou ailleurs) les résultats pour ne plus les redemander.*
+    - Avec Object Relational Mapping (ORM) : *Mongoose ou TypeORM ou Prisma*
+    - API : *The Movie Database (TMDB)*. *La clé de l'API sera stockée dans un fichier .env et ne sera pas déposée sur votre dépôt Git. La clé ne sera jamais envoyée au client. Notre client communiquera avec notre serveur qui lui-même communiquera avec l'API de TMDB. Vous veillerez également à ne pas faire de requêtes vers TMDB lorsque cela n'est pas nécessaire : mettez en cache (en base de données ou ailleurs) les résultats pour ne plus les redemander.*
     - Authentification : *JSON Web Token (JWT)*
     - Tout en *TypeScript*
-    - *Vous devez faire tourner au moins un processus en arrière-plan sur le serveur (par exemple pour envoyer des emails, pour envoyer des notifications, etc.) qui ne sera pas bloquant pour le serveur.*
+    - *Vous devez faire tourner au moins un processus en arrière-plan sur le serveur (par exemple pour envoyer des emails, pour envoyer des notifications, etc.) qui ne sera pas bloquant pour le serveur. Il ne fonctionnera pas sur votre serveur distant mais il doit marcher localement.*
 - Versionning : *GitHub*
 - Déploiement : 
-    - *sur votre propre serveur*
-    - *automatiquement via des GitHub Actions ou autre*
+    - ~~sur votre propre serveur~~
+    - ~~automatiquement via des GitHub Actions ou autre~~
+    - *Vous ne devez plus déployer votre application sur un serveur distant (par faute de VPS). Votre application tournera donc uniquement en local. Mais vous devez comprendre comment votre client React peut être servi par votre serveur Express, si nous devions le mettre en ligne.* 
 - Tests :
     - En *TypeScript*
     - Tests unitaires : Jest
     - Tests d'intégration : Jest
-    - Tests end-to-end : *Cypress*
-- Documentation : 
+    - Tests end-to-end : *Cypress (local)*
+- Documentation :
     - En *Markdown* (pas de pdf ou autres).
     - *Elle doit être lisible directement sur GitHub.*
-    - *Dans le dossier `docs` à la racine du projet, la documentation technique doit permettre de comprendre comment installer et utiliser l'application.*
-    - *Dans le dossier `teams` à la racine du projet, la documentation SCRUM va décrire ce que chaque sprint a apporté au projet (ce qui a été réalisé, ce qui n'a pas été réalisé, ce qui a été reporté, etc.).* 
+    - *Dans le dossier `docs` à la racine du projet, la documentation technique doit permettre de comprendre comment installer et utiliser l'application. Vous devez également indiquer ce qu'il faut mettre en place pour configurer les processus en arrière-plan (crontab, ...) ou autre.*
+    - *Dans le dossier `teams` à la racine du projet, la documentation SCRUM va décrire ce que chaque sprint a apporté au projet (ce qui a été réalisé, ce qui n'a pas été réalisé, ce qui a été reporté, etc.).*
 - Sécurité :
     - Protection contre les attaques *XSS* et *CSRF*
     - Protection contre les *injections SQL*
 
 Toutes les fonctionnalités ne sont pas obligatoires mais l'ensemble de vos fonctionnalités doit recouvrir tout ce qui est en *italique*. Ce qui est en *italique* est donc la partie obligatoire pour ce projet. Tout ce qui n'est pas en italique est optionnel. Vous pouvez ajouter d'autres technologies si vous le souhaitez.
     
-## Equipe 
+## Equipe
 
 - Vous devrez travailler en équipe de 2 ou 3 personnes. Vous devrez utiliser GitHub pour gérer votre projet. Vous devrez utiliser des branches pour travailler sur des fonctionnalités différentes. Vous pouvez utiliser des pull requests pour fusionner vos branches. Vous devrez utiliser des issues pour gérer les tâches à réaliser.
 
@@ -151,3 +152,4 @@ Toutes les fonctionnalités ne sont pas obligatoires mais l'ensemble de vos fonc
 
 
 ### *Bon travail !*
+
