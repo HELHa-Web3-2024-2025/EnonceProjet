@@ -135,7 +135,7 @@ Toutes les fonctionnalités ne sont pas obligatoires mais l'ensemble de vos fonc
 
 ## Planning
 
-- Le projet a commencé le 3 octobre 2024 et se terminera le 20 décembre 2024.
+- Le projet a commencé le 3 octobre 2024 et se terminera le 9 janvier 2025 à 22h.
 - Le projet va être découpé en 5 sprints de 2 semaines, dont voici le calendrier :
 
     - Sprint 1 : du 3 octobre 2024 au 17 octobre 2024
@@ -149,6 +149,25 @@ Toutes les fonctionnalités ne sont pas obligatoires mais l'ensemble de vos fonc
 - Vos points seront calculés en fonction de la quantité et de la qualité de votre travail. Vous devrez respecter les délais et les consignes pour obtenir des points. Vous devrez aussi participer activement aux réunions de planification, de revue et de rétrospective pour obtenir des points.
 - Votre présence est donc obligatoire à toutes les séances de cours. Si vous ne pouvez pas être présent à une séance, vous devrez prévenir à l'avance et vous devrez rattraper le travail manqué.
 - Afin de noter au mieux chaque membre de l'équipe, vous devrez utiliser des branches pour travailler sur des fonctionnalités différentes. Vous pourrez être interrogés sur l'utilisation de ces outils lors de la revue de projet.
+
+## Modalité de l'examen Q1
+
+- Vous devez remettre votre projet sur votre repository GitHub pour **le 9 janvier 2025 à 22h maximum**.
+- L'application doit être fonctionnelle et respecter les fonctionnalités obligatoires. Si ce n'est pas le cas, alors l'examen ne pourra pas être réussi (mieux vaut le repasser en Q3 alors).
+- Pour cette même date, vous ferrez une vidéo de présentation de votre projet (une vidéo par groupe). Vous devrez expliquer les fonctionnalités de votre application, les technologies utilisées, les difficultés rencontrées, l'architecture de votre code, etc. Vous devrez montrer votre application en fonctionnement. Vous mettrez le lien de la vidéo dans le fichier `README.md` de votre projet.
+- Vous passerez un examen oral le 16 janvier 2025 par groupe. Chaque membre du groupe doit être capable d'expliquer l'ensemble du code du projet, les tests, la documentation, etc. Chaque membre devra aussi répondre à des questions sur les technologies utilisées, les choix que vous avez faits, les difficultés rencontrées, etc. Vous devez également être capable de montrer votre application en fonctionnement.
+- Prenez chacun vos ordinateurs portables pour l'examen oral. Vous serez potentiellement interrogés simultanément via une application en ligne. 
+
+## Modalité de l'examen Q3
+
+- Si vous n'avez pas réussi à obtenir la moyenne à l'examen Q1, vous devrez remettre une version améliorée de votre projet.
+- Vous pouvez continuer à travailler en équipe ou seul pour améliorer votre projet. Vous devrez remettre votre projet sur GitHub pour la date indiquée ci-dessus. Si vous n'avez pas de repository GitHub, je dois vous le créer pour vous.
+- L'énoncé de projet reste le même (fonctionnalités et livrables). 
+- Vous devrez également remettre une documentation expliquant les améliorations que vous avez apportées à votre projet.
+- Vous devrez également remettre une vidéo de présentation de votre projet (une vidéo par groupe). Vous devrez expliquer les fonctionnalités de votre application, les technologies utilisées, les difficultés rencontrées, l'architecture de votre code, etc. Vous devrez montrer votre application en fonctionnement. Vous mettrez le lien de la vidéo dans le fichier `README.md` de votre projet.
+- Tout ce qui précède est obligatoire pour réussir l'examen Q3 et doit être rendu pour **maximum 7 jours avant l'examen Q3 (si l'examen se déroule le 16 août 2025, vous devrez remettre votre projet pour le 9 août 2025 à 22h maximum).**
+- Vous passerez un examen oral par groupe. Chaque membre du groupe doit être capable d'expliquer l'ensemble du code du projet, les tests, la documentation, etc. Chaque membre devra aussi répondre à des questions sur les technologies utilisées, les choix que vous avez faits, les difficultés rencontrées, etc. Vous devez également être capable de montrer votre application en fonctionnement.
+- Prenez chacun vos ordinateurs portables pour l'examen oral. Vous serez potentiellement interrogés simultanément via une application en ligne.
 
 
 ### *Bon travail !*
